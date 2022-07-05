@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-banner{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.banner-content{
+    padding: 175px 200px 130px 200px;
+    text-align: center;
+    color: white;
+}
+.banner-content h1{
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+.banner-content p{
+    line-height: 30px;
+    
+}
+.donate-now{
+    padding: 15px 15px;
+    background-color: brown;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
