@@ -20,6 +20,7 @@
 }
 .banner-content p{
     line-height: 30px;
+    color: white;
     
 }
 .donate-now{
@@ -38,11 +39,8 @@
     border-radius: 10px;
    text-align: center;
 }
-.donate-today h1{
-    font-size: 50px;
-    font-weight: 700;
-}
-.donate-today p{
+
+ p{
     line-height: 25px;
     color: #707070;
 
@@ -78,8 +76,71 @@
     border-bottom: 1px solid gray;
     width: 100%;  
 }
-input[type="text"]::placeholder{
+ input[type="text"]::placeholder{
+    text-align: center;  
+}
+.todonate h1{
+    font-size: 20px;
+}
+.all-donate-plan{
+    display: flex;
+    
+}
+.donate-header{
     text-align: center;
+    margin: 0% 20% 0% 20%;
+}
+.donate-plan {
+    width: 80%;
     
-    
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+    border-radius: 10px;
+   text-align: left;
+}
+.donate-plan p{
+    text-align: justify;
+}
+.one {
+    background-color: #EEF6F7;
+   padding: 50px 20px;
+}
+.two {
+    background-color: #FFEFEF;
+    padding: 50px 20px;
+}
+.three {
+    background-color: #FFF4D6;
+    padding: 50px 20px;
+}
+.newslatter{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.newslatter-header p{
+    margin-bottom: -40px;
+}
+.subscribe-form{
+    background-color: #FFF4D6;
+    padding:60px;
+}
+.subscribe-form input{
+    width: 300px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.subscribe{
+    padding: 16px 12px;
+    background-color: #FF5959;
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: 700;
+    margin-left: -10px;
 }
