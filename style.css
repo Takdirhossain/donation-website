@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    margin-bottom: 100px;
 }
 .banner-content{
     padding: 175px 200px 130px 200px;
@@ -33,7 +34,7 @@
 }
 .donate{
     width: 60%;
-    
+    margin-bottom: 100px;
     margin-left: 20%;
     margin-top: 50px;
     border-radius: 10px;
@@ -79,6 +80,9 @@
  input[type="text"]::placeholder{
     text-align: center;  
 }
+.todonate{
+    margin-bottom: 100px;
+}
 .todonate h1{
     font-size: 20px;
 }
@@ -119,6 +123,7 @@
     text-align: center;
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 100px;
 
 }
 .newslatter-header p{
@@ -143,4 +148,15 @@
     color: white;
     font-weight: 700;
     margin-left: -10px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 50px 0px;
+}
+.footer h1{
+    color: #FF5959;
+}
+.footer p{
+    color: white;
 }
