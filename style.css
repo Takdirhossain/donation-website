@@ -6,7 +6,7 @@
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: cover;
     margin-bottom: 100px;
 }
 .banner-content{
@@ -159,4 +159,55 @@
 }
 .footer p{
     color: white;
+}
+.all-partner{
+    display: flex;
+    
+    
+}
+.partner-company img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+#microsoft{
+    margin-left: -15px;
+}
+.partners h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.partners p{
+    font-family: 'Montserrat', sans-serif;
+}
+.our-staff {
+    display: flex;
+   
+}
+.staff-header{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.all-staff{
+    margin-top: 100px;
+    margin-left: 70px;
+    padding: 20px;
+    border: 2px solid #FF5959;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 100px;
+    box-shadow: 10px 20px #FF5959;
+   
+   
+}
+.all-staff img {
+    border-radius: 5px;
+}
+.all-staff h1{
+    color: #FF5959;
+
 }
